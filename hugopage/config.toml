@@ -1,8 +1,17 @@
-baseurl = "https://kupferstich.github.io"
+baseurl = "https://kupferstich.github.io/"
 languageCode = "de-de"
 title = "Kupferstichsammlung Hamburg"
 
 theme = "robust"
 
 canonifyurls = true
-paginate = 3
+paginate = 10
+
+[taxonomies]
+    # Optional. Use if you want tags and lists.
+    erstellt = "erstellt"
+    category = "categories"
+    tags = "tags"
+
+[params]
+rss = true
